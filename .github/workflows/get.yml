@@ -3,6 +3,10 @@ on:
   schedule:
     - cron: '* * * * *'
 
+  push:
+    branches:
+      - default
+
 jobs:
   FetchForUpdateFromFork:
     runs-on: ubuntu-latest
