@@ -1,0 +1,24 @@
+on:
+  push:
+    branches:
+      - default
+
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@master
+
+      - uses: covid19cuba/covid19cuba-action@master
+
+      - name: deploy
+        run: |
+          git config --global user.name 'covid19cubadata'
+          git config --global user.email 'covid19cubadata@gmail.com'
+          git checkout -b gh-pages
+          git add .
+          git commit -am "Deploy apis"
+          git push -f --set-upstream origin gh-pages
