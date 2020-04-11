@@ -16,8 +16,8 @@ jobs:
 
       - name: deploy
         run: |
-          git config --global user.name 'covid19cubadata'
-          git config --global user.email 'covid19cubadata@gmail.com'
+          git config --global user.name 'leynier'
+          git config --global user.email 'leynier41@gmail.com'
           git checkout -b gh-pages
           git add .
           git commit -am "Deploy apis"
