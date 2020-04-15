@@ -17055,7 +17055,7 @@
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
                         "municipio_detección": "Melena del Sur",
-                        "provincia_detección": "La Habana",
+                        "provincia_detección": "Mayabeque",
                         "dpacode_municipio_deteccion": "24.09",
                         "dpacode_provincia_deteccion": "24",
                         "contagio": "introducido",
@@ -17135,7 +17135,7 @@
                         "arribo_a_cuba_foco": null,
                         "consulta_medico": null,
                         "municipio_detección": "Limonar",
-                        "provincia_detección": "Matanza",
+                        "provincia_detección": "Matanzas",
                         "dpacode_municipio_deteccion": "25.08",
                         "dpacode_provincia_deteccion": "25",
                         "contagio": "introducido",
@@ -17308,8 +17308,8 @@
                         "dpacode_provincias_visitadas": []
                     }
                 ],
-                "sujetos_riesgo": 2501,
-                "tests_total": 18767,
+                "sujetos_riesgo": 2466,
+                "tests_total": 20451,
                 "recuperados_numero": 19,
                 "graves_numero": 15,
                 "muertes_numero": 3
