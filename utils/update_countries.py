@@ -16,7 +16,7 @@ def change_date(dat):
 def get_oxford_index():
 	now = datetime.now()
 	indexes = requests.get('https://covidtrackerapi.bsg.ox.ac.uk/api/stringency/date-range/2020-1-27/'+str(now.year)+'-'+str(now.month)+'-'+str(now.day)).json()
-	data = {}
+	data = {'data':{}}
 	for day,countries in indexes['data'].items():
 		data['data'][day] = {}
 		for country in countries:
@@ -24,6 +24,7 @@ def get_oxford_index():
 			data['data'][day][country] = {'stringency':countries[country]['stringency'],'stringency_actual':countries[country]['stringency_actual']}
 	path = os.path.join('data', 'oxford-indexes.json')
 	json.dump(data, open(path, 'w'))
+	return data
 	
 
 
@@ -94,7 +95,11 @@ def generate_csv():
 
 def main():
 
+    indexs = get_oxford_index()
+    print('Oxford Index generated')
+    
     data = get_json_info()
+    data['indexes'] = indexs
     path = os.path.join('data', 'paises-info-dias.json')
     json.dump(data, open(path, 'w'))
 
@@ -103,8 +108,7 @@ def main():
     generate_csv()
     print('CSV generated')
     
-    get_oxford_index()
-    print('Oxford Index generated')
+    
 
 
 if __name__ == "__main__":
