@@ -24,3 +24,4 @@ Fork of https://covid19cubadata.github.io to check data and generate other more 
 * https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/tests_by_days.json
 * https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/updated.json
 * https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/all.json
+* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/full.json
