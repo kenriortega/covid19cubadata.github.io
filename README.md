@@ -5,23 +5,4 @@
 Fork of https://covid19cubadata.github.io to check data and generate other more comfortable and versioned data from the original data using GitHub Actions.
 
 ## Endpoints
-
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/affected_municipalities.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/affected_provinces.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/cases_by_mode_of_contagion.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/cases_by_nationality.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/cases_by_sex.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/comparison_of_accumulated_cases.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/distribution_by_age_ranges.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/distribution_by_nationality_of_foreign_cases.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/evolution_of_cases_by_days.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/evolution_of_deaths_by_days.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/evolution_of_recovered_by_days.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/list_of_tests_performed.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/map_data.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/note.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/resume.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/tests_by_days.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/updated.json
-* https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/all.json
 * https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/full.json
