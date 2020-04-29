@@ -2182,18 +2182,6 @@
             "abierto": true,
             "chequeado": true
         },
-        "eijv-2": {
-            "id": "eijv-2",
-            "identificador": "Consejo Popular Abel Santamaría",
-            "municipio": "Isla de la Juventud",
-            "provincia": "Isla de la Juventud",
-            "dpacode_municipio": "40.01",
-            "dpacode_provincia": "40.01",
-            "lon": -82.810281,
-            "lat": 21.890710,
-            "abierto": true,
-            "chequeado": true
-        },
         "eijv-3": {
             "id": "eijv-3",
             "identificador": "Consejo Popular La Fé",
@@ -2203,6 +2191,30 @@
             "dpacode_provincia": "40.01",
             "lon": -82.753945,
             "lat": 21.745226,
+            "abierto": true,
+            "chequeado": false
+        },
+        "estg-1": {
+            "id": "estg-1",
+            "identificador": "Reparto Marimón",
+            "municipio": "Santiago de Cuba",
+            "provincia": "Santiago de cuba",
+            "dpacode_municipio": "34.06",
+            "dpacode_provincia": "34",
+            "lon": -75.850496,
+            "lat": 20.047420,
+            "abierto": true,
+            "chequeado": false
+        },
+        "estg-2": {
+            "id": "estg-2",
+            "identificador": "Poblado de Boniato",
+            "municipio": "Santiago de Cuba",
+            "provincia": "Santiago de cuba",
+            "dpacode_municipio": "34.06",
+            "dpacode_provincia": "34",
+            "lon": -75.803810,
+            "lat": 20.081182, 
             "abierto": true,
             "chequeado": false
         }
