@@ -1747,7 +1747,7 @@
             "dpacode_provincia": "21",
             "lon": -83.37809801101685,
             "lat": 22.553424911624475,
-            "abierto": true,
+            "abierto": false,
             "chequeado": true
         },
         "epri-2": {
@@ -1920,7 +1920,7 @@
         },
         "elha-13": {
             "id": "elha-13",
-            "identificador": "Centro de Deambulantes",
+            "identificador": "Centro Provincial de Protección Social",
             "municipio": "Cotorro",
             "provincia": "La Habana",
             "dpacode_municipio": "23.15",
