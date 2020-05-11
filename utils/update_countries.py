@@ -25,7 +25,7 @@ def get_oxford_index():
     for day,countries in indexes['data'].items():
         data['data'][day] = {}
         for country in countries:
-            print(day,country,countries[country]['stringency'])
+            #print(day,country,countries[country]['stringency'])
             data['data'][day][country] = {'stringency':countries[country]['stringency'],'stringency_actual':countries[country]['stringency_actual'], 'stringency_legacy': countries[country]['stringency_legacy'], 'stringency_legacy_disp': countries[country]['stringency_legacy_disp']}
     path = os.path.join('data', 'oxford-indexes.json')
     json.dump(data, open(path, 'w'))
