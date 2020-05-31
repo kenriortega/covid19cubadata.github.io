@@ -16,6 +16,8 @@ jobs:
       - uses: actions/checkout@master
 
       - uses: covid19cuba/covid19cuba-action@master
+        with:
+          BotToken: ${{ secrets.BOT_TOKEN }}
 
       - name: deploy
         run: |
