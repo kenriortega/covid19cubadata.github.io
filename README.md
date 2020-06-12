@@ -6,3 +6,4 @@ Fork of https://covid19cubadata.github.io to check data and generate other more 
 
 ## Endpoints
 * https://covid19cuba.github.io/covid19cubadata.github.io/api/v1/full.json
+* https://covid19cuba.github.io/covid19cubadata.github.io/api/v2/full.json
